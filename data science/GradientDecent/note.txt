@@ -1,0 +1,14 @@
+To summarize, from sklearn...
+
+Stochastic Gradient Descent is a simple yet very efficient approach to discriminative learning of linear classifiers under convex loss functions such as (linear) Support Vector Machines and Logistic Regression. Even though SGD has been around in the machine learning community for a long time, it has received a considerable amount of attention just recently in the context of large-scale learning.
+
+SGD has been successfully applied to large-scale and sparse machine learning problems often encountered in text classification and natural language processing. Given that the data is sparse, the classifiers in this module easily scale to problems with more than 10^5 training examples and more than 10^5 features.
+
+The advantages of Stochastic Gradient Descent are:
+
+Efficiency.
+Ease of implementation (lots of opportunities for code tuning).
+The disadvantages of Stochastic Gradient Descent include:
+
+SGD requires a number of hyperparameters such as the regularization parameter and the number of iterations.
+SGD is sensitive to feature scaling.
