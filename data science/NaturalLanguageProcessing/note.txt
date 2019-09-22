@@ -1,0 +1,19 @@
+Natural language Prosessing
+
+how to tokenize
+diffenet form of tokens
+
+predict stars in yelp review
+
+undestand the sentimant of a text (using polarity, subjectivity)
+
+what model does this the best: Multinomial Naive Bayes
+
+how to use grid search to optimize all parameters of tokenizing .. (with the help of pipelines)
+
+what is TF-IDF
+
+spam/ham sample
+
+
+

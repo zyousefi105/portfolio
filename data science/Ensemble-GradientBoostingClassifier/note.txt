@@ -1,0 +1,32 @@
+
+classifiers in skit-learn
+
+Gaussian Naive Bayes (GaussianNB)
+Decision Trees
+Ensemble Methods (Bagging, AdaBoost, Random Forest, Gradient Boosting)
+K-Nearest Neighbors (KNeighbors)
+Stochastic Gradient Descent (SGDC)
+Support Vector Machines (SVM)
+Logistic Regression
+
+choosing best model:
+
+how to compare models using generic custom fit and predict functions that 
+can accept different models, data and do the fit predict and scoring for us
+
+tuning best model after choosing : with examining different parameters of that model using grid search
+
+GradientBoostingClassifier and how to tune that - this is also a probability based model so goes well roc_curve - 
+it is an ensemble method so even better than logistic regression - has better accuracy in general
+
+make_scorer function that can make any type of scorer available in skit-learn
+
+MLPClassifier from sklearn.neural_network 
+
+
+Can we tune logistic regresion to get as good as gradientBoosting: Maybe how?
+grid search with following params:
+parameters = [{'C':[0.5,1.0,1.5,100]},{'penalty':['l2','l1']}]
+
+how to tune gradientBoosting to make it possibly better:
+parameters = [{'max_depth':[2,3,4]},{'n_estimators':[20,50,75,100,150]},{'learning_rate':[.02,.03,.05,.1,.15]}]
