@@ -1,0 +1,14 @@
+metrics for classidication and regression 
+confusion matrix (for classification)
+train_test_split
+cross validation
+grid_search
+linear model types(ridge, rasso, gdagresso)
+grdient decent
+
+DecisionTreeRegressor
+DecisionTreeClassifier
+GassiabBysian
+
+advanced panda manipulation
+seaborn

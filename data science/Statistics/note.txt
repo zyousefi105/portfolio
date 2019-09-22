@@ -1,0 +1,4 @@
+more on statistics
+p-value
+confidence interval
+more advanced python practices
