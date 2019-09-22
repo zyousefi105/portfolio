@@ -1,0 +1,5 @@
+statistics
+normal distribution
+dummy variables
+central limit theory
+how to plot all features
