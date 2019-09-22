@@ -1,0 +1,23 @@
+knn
+when use it?
+its simple
+needs scaling for sure
+because give equal importance to all features even noises
+what is important is number of neigbors which
+can be found by examining in a for loop and plot accuracy diagram for neigbor ranges
+or can be found with doing gridsearch
+accuracy can be either of classidication accuracy
+
+good sample of primary votes
+good manipulation and joining strategies of 2,3 diffrent data frames to make a final clean useful data to apply ML techniques on
+
+--------------------
+
+when data is imbalanced for measuring accuracy (specially false positives) we'd better don't relay on 
+confusion metrics but use roc_curve and this works best with threshhold probability based models like logistic regression.
+
+So in logistic regression a good way to chosse the best threshhold is to draw threshhold via false negative diagrams to see
+for what threshhold , false negative is the lowest.
+
+so this is a good advanced point about logistic regression
+

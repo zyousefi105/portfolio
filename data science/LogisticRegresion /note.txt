@@ -1,0 +1,19 @@
+what is logistic regression
+
+how is it related to linear regression
+
+why to use that?
+whats the advantages / disadvantages
+
+its based on probability
+could be binary or not
+could be based on one feature or more but has the concept of importance of the features
+when to use that
+compare to knn
+math behind it
+
+probability / odd / logodd
+
+the interpretation of it
+
+ols_regularization left, didn't go through
