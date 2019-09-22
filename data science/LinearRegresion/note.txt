@@ -1,0 +1,18 @@
+linear regression 2 forms:
+statsmodel
+scitlearn
+
+multicolloniarity
+how to decrease that
+colum selection feature - how? columns which have great correlation with the target but not with eachother
+
+how to find correlation between columns
+heatmap from sns
+
+scrapping data
+scaling data like using log function: (normalize data) 
+to bring all columns to similar ranges 
+to avoid the bigger ranges having more unaccurate effect on the result
+
+
+normalized data is different than normallized distribution

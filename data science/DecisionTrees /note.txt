@@ -1,0 +1,16 @@
+dicision tree (agressor - classifier)
+entropy
+tree.export_graphvi
+sklearn.cross_validation import ShuffleSplit
+train_test_split
+Bias-Variance Tradeoff
+Best-Guess Optimal Model (with combining gridsearch, cross validation ..)
+cPickle - how to load an externalfigure
+
+how to write our own custom functions like:
+def accuracy_score
+def preprocess_features - very important - generic
+def performance_metric(y_true, y_predict) - for any metric
+def fit_model(X, y) - very useful advanced approach to combine everything in one method which returns grid.best_estimator
+
+
