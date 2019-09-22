@@ -1,0 +1,3 @@
+cluster: bringing some structures to unstructure data
+
+whenever you run K-mean alg you get different results

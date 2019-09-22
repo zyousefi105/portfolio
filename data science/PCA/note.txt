@@ -1,0 +1,12 @@
+pca
+mathematics behind
+compare models with pca and without
+why pca? remove noise columns and multi colliniarity
+
+eigenvalues
+eigenvectors
+
+what is horn_parallel_analysis? an algorithm to plot a diagram againsy explained_varience diagram to determine which pca components 
+are not noise and should be chosen, all point under horn_parallel_analysis diagrams are noise
+
+do not forget to do standarize (normalize) data befor applying pca 

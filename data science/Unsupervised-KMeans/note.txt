@@ -1,0 +1,27 @@
+clustering mrethods which are unsupervised categorical 
+they are based on similarities
+
+most popular : k-mean , that similarity here is distance
+based on density of points in a cluster
+simple but sensitive to scaling
+needs to choose k (number of clusters at first)
+its iterative multistep a;gorithm finally stops at a stopping creteria
+
+the other model: DBSCAN
+cluster can have any shape and size
+no need to choose number of clusters in the biginning
+
+not good for varying densities clusters
+more difficult to tune
+
+validation : silhouette_score
+very sensitive to scaling
+
+when do validation always check silhouette_score for different k(number of clusters) then choose the best
+you might need to draw the diagram of k/silhouette_score to figure this out.
+
+so first start with a default k to come to a model then start to tune it with actually changing the k.
+
+PCA left
+
+customer_segments sample left, didn't go through
