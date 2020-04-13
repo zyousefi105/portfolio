@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'Far.Abasan';
+  src: url('http://www.fontfarsi.ir/Content/Fonts/EOT/Far_Abasan.eot');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+  .myclass {
+  font-family: 'Far.Abasan',Tahoma, Sans-Serif;
+  font-size: 24px;
+  }
+
+@font-face {
+  font-family: RobotoCondensed;
+  src: url(assets/roboto-condensed.light.ttf);
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: EconomicaBold;
+  src: url(assets/economica-bold.ttf);
+}
+
+body {
+  text-align: center;
+  font-size: 15px;
+  padding: 2.5%;
+  font-family: Tahoma, Sans-Serif;
+  background-image: url("./assets/test3.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 350px;
+  background-color: white;
+  /* position: fixed; */
+
+}
+
+.mainpic {
+  width: 100%;
+  height: 100%;
+  /* border-radius: 100px; */
+  margin-top: 0;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: Tahoma, Sans-Serif;
+}
+table {
+  border-collapse: collapse;
+}
+th {
+  background-color:rgb(98, 103, 165);
+  color: white;
+  font-size: bold;
+}
+
+th, td {
+  border-bottom: 1px solid #ddd;
+}
+
+table, th, td {
+  padding: 15px;
+  text-align: right;
+  align-self: center;
+
+}
+
+.divalign {
+  text-align: right;
+  margin-left:500px;
+}
+
+.inputstyle {
+  text-align: right;
+}
+
+.profile {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  text-align: left;
+}
+
+.test {
+  margin-top:320px;
+}
+
+.title-fade-out {
+  opacity: 0;
+  animation-name: fade-out;
+  animation-duration: 2s;
+}
+
+.title-fade-in {
+  opacity: 100;
+  animation-name: fade-in;
+  animation-duration: 2s;
+}
+
+@keyframes fade-out {
+  from {opacity: 100}
+  to {opacity: 0}
+}
+
+@keyframes fade-in {
+  from {opacity: 0}
+  to {opacity: 100}
+}
